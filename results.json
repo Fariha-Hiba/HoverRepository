@@ -108,13 +108,13 @@
   },
   "suites": [
     {
-      "title": "EasyCalculationHover.spec.js",
-      "file": "EasyCalculationHover.spec.js",
+      "title": "SpicejetHover.spec.js",
+      "file": "SpicejetHover.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Easy Calculation Hover - Block Ads",
+          "title": "Spice jet MouseHover",
           "ok": true,
           "tags": [],
           "tests": [
@@ -129,12 +129,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6888,
+                  "duration": 10175,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-21T08:31:55.766Z",
+                  "startTime": "2025-05-21T09:43:23.027Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -142,8 +142,8 @@
               "status": "expected"
             }
           ],
-          "id": "1b1bcddd2a53e7adec35-ac47e5a50379082d3379",
-          "file": "EasyCalculationHover.spec.js",
+          "id": "7dbe16d5a1969e99fbf3-1922dcdde9ae51622ff1",
+          "file": "SpicejetHover.spec.js",
           "line": 3,
           "column": 5
         }
@@ -152,8 +152,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-05-21T08:31:39.577Z",
-    "duration": 26567.934,
+    "startTime": "2025-05-21T09:43:10.214Z",
+    "duration": 26552.834000000003,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

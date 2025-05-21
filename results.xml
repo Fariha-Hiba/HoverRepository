@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="26.567934">
-<testsuite name="EasyCalculationHover.spec.js" timestamp="2025-05-21T08:31:39.727Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.888" errors="0">
-<testcase name="Easy Calculation Hover - Block Ads" classname="EasyCalculationHover.spec.js" time="6.888">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="26.552834000000004">
+<testsuite name="SpicejetHover.spec.js" timestamp="2025-05-21T09:43:10.640Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.175" errors="0">
+<testcase name="Spice jet MouseHover" classname="SpicejetHover.spec.js" time="10.175">
 </testcase>
 </testsuite>
 </testsuites>
