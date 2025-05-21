@@ -1,6 +1,10 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="26.552834000000004">
-<testsuite name="SpicejetHover.spec.js" timestamp="2025-05-21T09:43:10.640Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.175" errors="0">
-<testcase name="Spice jet MouseHover" classname="SpicejetHover.spec.js" time="10.175">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="19.886669">
+<testsuite name="TaskUploadFiles.spec.js" timestamp="2025-05-21T10:37:46.415Z" hostname="chromium" tests="3" failures="0" skipped="0" time="38.502" errors="0">
+<testcase name="Upload Files Test 1" classname="TaskUploadFiles.spec.js" time="13.696">
+</testcase>
+<testcase name="Upload Files Test 2" classname="TaskUploadFiles.spec.js" time="12.603">
+</testcase>
+<testcase name="Upload Files Test 3" classname="TaskUploadFiles.spec.js" time="12.203">
 </testcase>
 </testsuite>
 </testsuites>
