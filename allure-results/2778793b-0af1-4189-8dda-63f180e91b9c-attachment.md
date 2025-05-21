@@ -1,0 +1,130 @@
+# Test info
+
+- Name: Easy Calculation Test
+- Location: C:\PlaywrightTrainingAscendion\tests\EasyCalculation.spec.js:6:5
+
+# Error details
+
+```
+Error: page.goto: Test timeout of 60000ms exceeded.
+Call log:
+  - navigating to "https://www.google.com/", waiting until "load"
+
+    at C:\PlaywrightTrainingAscendion\tests\EasyCalculation.spec.js:7:16
+```
+
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "About":
+    - /url: https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header
+  - link "Store":
+    - /url: https://store.google.com/IN?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-IN
+  - link "Gmail":
+    - /url: https://mail.google.com/mail/&ogbl
+  - link "Search for Images":
+    - /url: https://www.google.com/imghp?hl=en&ogbl
+    - text: Images
+  - button "Google apps":
+    - img
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+- img
+- search:
+  - img
+  - combobox "Search"
+  - button "Search by voice":
+    - img
+  - button "Search by image":
+    - img
+  - button "Google Search"
+  - button "I'm Feeling Lucky"
+- text: Watch now!
+- link "We’re unveiling our latest AI innovations at Google I/O 2025"
+- text: "Google offered in:"
+- link "हिन्दी":
+  - /url: https://www.google.com/setprefs?sig=0_Y7mHOU3a96KvjrOC8yNELaT25yw%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjv04PnjbONAxUjQ2cHHckDErYQ2ZgBCBc
+- link "বাংলা":
+  - /url: https://www.google.com/setprefs?sig=0_Y7mHOU3a96KvjrOC8yNELaT25yw%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwjv04PnjbONAxUjQ2cHHckDErYQ2ZgBCBg
+- link "తెలుగు":
+  - /url: https://www.google.com/setprefs?sig=0_Y7mHOU3a96KvjrOC8yNELaT25yw%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjv04PnjbONAxUjQ2cHHckDErYQ2ZgBCBk
+- link "मराठी":
+  - /url: https://www.google.com/setprefs?sig=0_Y7mHOU3a96KvjrOC8yNELaT25yw%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjv04PnjbONAxUjQ2cHHckDErYQ2ZgBCBo
+- link "தமிழ்":
+  - /url: https://www.google.com/setprefs?sig=0_Y7mHOU3a96KvjrOC8yNELaT25yw%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjv04PnjbONAxUjQ2cHHckDErYQ2ZgBCBs
+- link "ગુજરાતી":
+  - /url: https://www.google.com/setprefs?sig=0_Y7mHOU3a96KvjrOC8yNELaT25yw%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjv04PnjbONAxUjQ2cHHckDErYQ2ZgBCBw
+- link "ಕನ್ನಡ":
+  - /url: https://www.google.com/setprefs?sig=0_Y7mHOU3a96KvjrOC8yNELaT25yw%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjv04PnjbONAxUjQ2cHHckDErYQ2ZgBCB0
+- link "മലയാളം":
+  - /url: https://www.google.com/setprefs?sig=0_Y7mHOU3a96KvjrOC8yNELaT25yw%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjv04PnjbONAxUjQ2cHHckDErYQ2ZgBCB4
+- link "ਪੰਜਾਬੀ":
+  - /url: https://www.google.com/setprefs?sig=0_Y7mHOU3a96KvjrOC8yNELaT25yw%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjv04PnjbONAxUjQ2cHHckDErYQ2ZgBCB8
+- contentinfo:
+  - text: India
+  - link "Advertising":
+    - /url: https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+  - link "Business":
+    - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+  - link "How Search works":
+    - /url: https://google.com/search/howsearchworks/?fg=1
+  - link "Privacy":
+    - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+  - link "Terms":
+    - /url: https://policies.google.com/terms?hl=en-IN&fg=1
+  - button "Settings"
+- dialog "Sign in to Google":
+  - text: Sign in to Google Get the most from your Google account
+  - button "Stay signed out"
+  - button "Sign in"
+```
+
+# Test source
+
+```ts
+   1 | import { test, expect } from '@playwright/test';
+   2 |
+   3 | // ↑ Add this line to allow up to 60 seconds for the test instead of the default 30 seconds
+   4 | test.setTimeout(60000);
+   5 |
+   6 | test('Easy Calculation Test', async ({ page }) => {
+>  7 |     await page.goto('https://www.google.com/');
+     |                ^ Error: page.goto: Test timeout of 60000ms exceeded.
+   8 |
+   9 |     await page.fill("#APjFqb", "EasyCalculation");
+  10 |
+  11 |     const searchResults = await page.$$("//div[@class='wM6W7d']/span");
+  12 |     console.log(await searchResults.length);
+  13 |
+  14 |     const firstRes = await page.waitForSelector("(//div[@class='wM6W7d']/span)[1]");
+  15 |     await firstRes.click();
+  16 |
+  17 |     await page.waitForTimeout(20000);
+  18 |
+  19 |     // for (const res in searchResults) {
+  20 |     //     if(res.matchAll('easycalculation')) {
+  21 |     //         res.click()
+  22 |     //         break
+  23 |     //     }
+  24 |     // }
+  25 |
+  26 |     const firstLink = await page.waitForSelector('//*[@id="rso"]/div[1]/div/div/div/div/div/div/div/div[1]/div/span/a/h3');
+  27 |     await firstLink.click();
+  28 |
+  29 |     const searchBox = await page.locator('#googleSearchId');
+  30 |     await searchBox.fill('playwright');
+  31 |     await page.locator('.search_button').click();
+  32 |
+  33 |     await page.waitForLoadState('networkidle');
+  34 |     await page.waitForTimeout(10000);
+  35 |
+  36 |     const firstPwLink = await page.waitForSelector("//a[contains(text(),'How to Use')]");
+  37 |     await firstPwLink.click();
+  38 |
+  39 |     await expect(page.locator('/html/body/header/nav/div[1]/ul/li/a')).toBeVisible();
+  40 |
+  41 |     await page.close();
+  42 | });
+  43 |
+```

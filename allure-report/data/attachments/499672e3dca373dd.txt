@@ -1,0 +1,1 @@
+Leaving password empty shows alert: Please enter your password

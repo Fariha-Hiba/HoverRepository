@@ -1,0 +1,23 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="50.543249">
+<testsuite name="SpicejetHover.spec.js" timestamp="2025-05-21T08:02:31.583Z" hostname="chromium" tests="1" failures="1" skipped="0" time="30.244" errors="0">
+<testcase name="Spice jet MouseHover" classname="SpicejetHover.spec.js" time="30.244">
+<failure message="SpicejetHover.spec.js:3:5 Spice jet MouseHover" type="FAILURE">
+<![CDATA[  [chromium] › SpicejetHover.spec.js:3:5 › Spice jet MouseHover ────────────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.waitForLoadState: Test timeout of 30000ms exceeded.
+
+       5 |     await page.locator('//*[@id="main-container"]/div/div[1]/div[2]/div[1]/div/div[2]/div[2]/div/div[1]/div[1]').hover()
+       6 |     await page.getByText('Our Program').click()
+    >  7 |     await page.waitForLoadState('networkidle');
+         |                ^
+       8 |     await page.getByRole('link', {name: 'Add-ons'}).hover()
+       9 |
+      10 | })
+        at C:\PlaywrightTrainingAscendion\tests\SpicejetHover.spec.js:7:16
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

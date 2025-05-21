@@ -1,0 +1,867 @@
+# Test info
+
+- Name: Hidden Dropdown Test
+- Location: C:\PlaywrightTrainingAscendion\tests\HiddenDropdown.spec.js:3:5
+
+# Error details
+
+```
+Error: page.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('//div[@class=\'oxd-select-text-input \']')
+
+    at C:\PlaywrightTrainingAscendion\tests\HiddenDropdown.spec.js:9:12
+```
+
+# Page snapshot
+
+```yaml
+- complementary:
+  - navigation "Sidepanel":
+    - link "client brand banner":
+      - /url: https://www.orangehrm.com/
+      - img "client brand banner"
+    - textbox "Search"
+    - button ""
+    - separator
+    - list:
+      - listitem:
+        - link "Admin":
+          - /url: /web/index.php/admin/viewAdminModule
+      - listitem:
+        - link "PIM":
+          - /url: /web/index.php/pim/viewPimModule
+      - listitem:
+        - link "Leave":
+          - /url: /web/index.php/leave/viewLeaveModule
+      - listitem:
+        - link "Time":
+          - /url: /web/index.php/time/viewTimeModule
+      - listitem:
+        - link "Recruitment":
+          - /url: /web/index.php/recruitment/viewRecruitmentModule
+      - listitem:
+        - link "My Info":
+          - /url: /web/index.php/pim/viewMyDetails
+      - listitem:
+        - link "Performance":
+          - /url: /web/index.php/performance/viewPerformanceModule
+      - listitem:
+        - link "Dashboard":
+          - /url: /web/index.php/dashboard/index
+      - listitem:
+        - link "Directory":
+          - /url: /web/index.php/directory/viewDirectory
+      - listitem:
+        - link "Maintenance":
+          - /url: /web/index.php/maintenance/viewMaintenanceModule
+      - listitem:
+        - link "Claim":
+          - /url: /web/index.php/claim/viewClaimModule
+          - img
+          - text: Claim
+      - listitem:
+        - link "Buzz":
+          - /url: /web/index.php/buzz/viewBuzz
+- banner:
+  - heading "PIM" [level=6]
+  - link "Upgrade":
+    - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+    - button "Upgrade"
+  - list:
+    - listitem:
+      - img "profile picture"
+      - paragraph: ali"> user
+      - text: 
+  - navigation "Topbar Menu":
+    - list:
+      - listitem: Configuration 
+      - listitem:
+        - link "Employee List":
+          - /url: "#"
+      - listitem:
+        - link "Add Employee":
+          - /url: "#"
+      - listitem:
+        - link "Reports":
+          - /url: "#"
+      - button ""
+- heading "Employee Information" [level=5]
+- button ""
+- separator
+- text: Employee Name
+- textbox "Type for hints..."
+- text: Employee Id
+- textbox
+- text: Employment Status -- Select --  Include Current Employees Only  Supervisor Name
+- textbox "Type for hints..."
+- text: Job Title -- Select --  Sub Unit -- Select -- 
+- separator
+- button "Reset"
+- button "Search"
+- button " Add"
+- separator
+- text: (155) Records Found
+- table:
+  - rowgroup:
+    - row " Id  First (& Middle) Name  Last Name  Job Title  Employment Status  Sub Unit  Supervisor  Actions":
+      - columnheader "":
+        - checkbox ""
+        - text: 
+      - columnheader "Id "
+      - columnheader "First (& Middle) Name "
+      - columnheader "Last Name "
+      - columnheader "Job Title "
+      - columnheader "Employment Status "
+      - columnheader "Sub Unit "
+      - columnheader "Supervisor "
+      - columnheader "Actions"
+  - rowgroup:
+    - row " 0455 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0455"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0437 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0437"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0425 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0425"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0405 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0405"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0442 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0442"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0432 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0432"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0371 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0371"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0413 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0413"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0377 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0377"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0449 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0449"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0411 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0411"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0400 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0400"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0456 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0456"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0438 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0438"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0392 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0392"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0445 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0445"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0399 Admin Admin123  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0399"
+      - cell "Admin"
+      - cell "Admin123"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " muser ali\"> akhil user HR Manager Full-Time Permanent Human Resources Argesta Garcia ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "muser"
+      - cell "ali\"> akhil"
+      - cell "user"
+      - cell "HR Manager"
+      - cell "Full-Time Permanent"
+      - cell "Human Resources"
+      - cell "Argesta Garcia"
+      - cell "":
+        - button ""
+    - row " 01715 Amelia Brown  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "01715"
+      - cell "Amelia"
+      - cell "Brown"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0360 aniket t t  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0360"
+      - cell "aniket t"
+      - cell "t"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0426 Anita Christensen  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0426"
+      - cell "Anita"
+      - cell "Christensen"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 410 Argesta Garcia HR Manager Full-Time Contract Human Resources  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "410"
+      - cell "Argesta"
+      - cell "Garcia"
+      - cell "HR Manager"
+      - cell "Full-Time Contract"
+      - cell "Human Resources"
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0367 Ash J Tyson  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0367"
+      - cell "Ash J"
+      - cell "Tyson"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0375 Auto Emp83c5 Test  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0375"
+      - cell "Auto Emp83c5"
+      - cell "Test"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0372 Auto Emp8bb8 Test  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0372"
+      - cell "Auto Emp8bb8"
+      - cell "Test"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0401 Auto Empe510 Test  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0401"
+      - cell "Auto Empe510"
+      - cell "Test"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0374 Auto Empf8b6 Test  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0374"
+      - cell "Auto Empf8b6"
+      - cell "Test"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0303 bala kumar ravi  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0303"
+      - cell "bala kumar"
+      - cell "ravi"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0450 Beth Burton  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0450"
+      - cell "Beth"
+      - cell "Burton"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0292 bmrtahvwhibmrtahvwhi hbfqkhjfqbhbfqkhjfqb  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0292"
+      - cell "bmrtahvwhibmrtahvwhi"
+      - cell "hbfqkhjfqbhbfqkhjfqb"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0428 Brenda Coleman  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0428"
+      - cell "Brenda"
+      - cell "Coleman"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0370 Carey Thompson  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0370"
+      - cell "Carey"
+      - cell "Thompson"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0320 Charles Carter  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0320"
+      - cell "Charles"
+      - cell "Carter"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 00392 Charlotte Smith  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "00392"
+      - cell "Charlotte"
+      - cell "Smith"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " EMP005 Chris Bergnaum  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "EMP005"
+      - cell "Chris"
+      - cell "Bergnaum"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0363 Christopher Mcmillan  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0363"
+      - cell "Christopher"
+      - cell "Mcmillan"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0384 Dan Altenwerth  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0384"
+      - cell "Dan"
+      - cell "Altenwerth"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0406 David Duncan  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0406"
+      - cell "David"
+      - cell "Duncan"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0290 dhbrukkuzldhbrukkuzl ibuvlwtfsfibuvlwtfsf  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0290"
+      - cell "dhbrukkuzldhbrukkuzl"
+      - cell "ibuvlwtfsfibuvlwtfsf"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 0294 DHINA KARAN P  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "0294"
+      - cell "DHINA KARAN"
+      - cell "P"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 09557 Emily Jones  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "09557"
+      - cell "Emily"
+      - cell "Jones"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " 1235 FName Mname LName  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "1235"
+      - cell "FName Mname"
+      - cell "LName"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " ATPValue ftdkux ltsxgy  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "ATPValue"
+      - cell "ftdkux"
+      - cell "ltsxgy"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " ATPValue fthnvn ltwrrt  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "ATPValue"
+      - cell "fthnvn"
+      - cell "ltwrrt"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " ATPValue fthnvn ltwrrt  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "ATPValue"
+      - cell "fthnvn"
+      - cell "ltwrrt"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " ATPValue fthyfv ltrhtm  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "ATPValue"
+      - cell "fthyfv"
+      - cell "ltrhtm"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " ATPValue ftioiu ltpugr  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "ATPValue"
+      - cell "ftioiu"
+      - cell "ltpugr"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " ATPValue ftioiu ltpugr  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "ATPValue"
+      - cell "ftioiu"
+      - cell "ltpugr"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " ATPValue ftioiu ltpugr  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "ATPValue"
+      - cell "ftioiu"
+      - cell "ltpugr"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+    - row " ATPValue ftioiu ltpugr  ":
+      - cell "":
+        - checkbox ""
+        - text: 
+      - cell "ATPValue"
+      - cell "ftioiu"
+      - cell "ltpugr"
+      - cell
+      - cell
+      - cell
+      - cell
+      - cell " ":
+        - button ""
+        - button ""
+- navigation "Pagination Navigation":
+  - list:
+    - listitem:
+      - button "1"
+    - listitem:
+      - button "2"
+    - listitem:
+      - button "3"
+    - listitem:
+      - button "4"
+    - listitem:
+      - button ""
+- paragraph: OrangeHRM OS 5.7
+- paragraph:
+  - text: © 2005 - 2025
+  - link "OrangeHRM, Inc":
+    - /url: http://www.orangehrm.com
+  - text: . All rights reserved.
+```
+
+# Test source
+
+```ts
+   1 | import {test, expect} from '@playwright/test'
+   2 |
+   3 | test('Hidden Dropdown Test', async ({ page }) => {
+   4 | await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+   5 |     await page.getByPlaceholder('Username').fill('Admin')
+   6 |     await page.getByPlaceholder('Password').fill('admin123')
+   7 |     await page.getByRole('button', { name: 'Login' }).click()
+   8 |     await page.getByText('PIM').click()
+>  9 | await page.click("//div[@class='oxd-select-text-input ']")[3]
+     |            ^ Error: page.click: Test timeout of 30000ms exceeded.
+  10 |  
+  11 |     await page.waitForSelector("//div[@role='listbox']//span") //setTimeout(function(){debugger})
+  12 |     const options = await page.$$(" //div[@role='listbox']//span")
+  13 |     for (const option of options) {
+  14 |         const text = await option.textContent()
+  15 |         console.log('text: ', text)
+  16 |  
+  17 |         if (text.includes('Developer')) {
+  18 | await option.click()
+  19 |             break
+  20 |         }
+  21 |     }
+  22 |  
+  23 |     await page.waitForTimeout(5000)
+  24 | })
+```

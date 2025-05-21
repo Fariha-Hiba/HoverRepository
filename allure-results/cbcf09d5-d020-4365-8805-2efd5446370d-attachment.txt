@@ -1,0 +1,1 @@
+Leaving username empty shows alert: Please enter a valid user name

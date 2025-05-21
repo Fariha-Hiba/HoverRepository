@@ -1,0 +1,126 @@
+Total number of rows and columns
+No. of columns:  4
+No. of rows:  5
+Select checkbox for smart watch
+Select Multiple products by reuse function
+Printing all products in the page
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 5933,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 5950,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 5967,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 5984,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6001,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6018,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6035,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6052,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6069,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6086,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6103,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6120,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6137,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6154,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6171,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6188,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6205,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6222,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6239,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6256,
+  [Symbol(trigger_async_id_symbol)]: 4290,
+  [Symbol(kResourceStore)]: undefined
+}

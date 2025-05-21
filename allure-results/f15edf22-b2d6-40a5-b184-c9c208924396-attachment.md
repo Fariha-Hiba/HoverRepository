@@ -1,0 +1,143 @@
+# Test info
+
+- Name: Checking Browser Title and URL - Practice Expand Testing
+- Location: C:\PlaywrightTrainingAscendion\tests\Practice2.spec.js:10:5
+
+# Error details
+
+```
+Error: page.goto: Test timeout of 30000ms exceeded.
+Call log:
+  - navigating to "https://practice.expandtesting.com/login", waiting until "load"
+
+    at C:\PlaywrightTrainingAscendion\tests\Practice2.spec.js:12:16
+```
+
+# Page snapshot
+
+```yaml
+- paragraph:
+  - link "TestifyStack":
+    - /url: https://testifystack.com/
+  - text: "| Email, SMS, OTP and Webhooks Testing Stack for QA & Dev"
+- banner:
+  - navigation "Main navigation":
+    - link "SUT":
+      - /url: /
+      - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman."'
+      - text: Practice
+    - list:
+      - listitem:
+        - button "Demos"
+      - listitem:
+        - link "Tools":
+          - /url: /#tools
+      - listitem:
+        - link "Tips":
+          - /url: /tips
+      - listitem:
+        - link "Test Cases":
+          - /url: /test-cases
+      - listitem:
+        - link "API Testing":
+          - /url: /notes/api/api-docs/
+      - listitem:
+        - link "About":
+          - /url: /about
+    - list
+    - link "Free ISTQB Mock Exams":
+      - /url: https://istqb.expandtesting.com/
+- main:
+  - insertion
+  - paragraph:
+    - text: Do you enjoy this platform? ❤️
+    - link "Buy us a coffee":
+      - /url: https://www.buymeacoffee.com/expandtesting
+  - insertion
+  - navigation "breadcrumb mb-2":
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: /
+      - listitem: / Login Page
+  - heading "Test Login page for Automation Testing Practice" [level=1]
+  - paragraph: This Test Login page is designed for automation testing practice. Test various positive and negative login scenarios in a testing environment.
+  - paragraph: You can use this login page for practicing with Selenium or other tools like Playwright, Cypress, etc.
+  - paragraph:
+    - text: Register
+    - link "here":
+      - /url: /register
+    - text: "or Log in to the secure area with these credentials:"
+  - list:
+    - listitem: "Username: practice"
+    - listitem: "Password: SuperSecretPassword!"
+  - paragraph
+  - text: Username
+  - textbox "Username"
+  - text: Password
+  - textbox "Password"
+  - button "Login"
+  - heading "How to test the login page?" [level=2]
+  - paragraph: If the credentials are correct, you should see a welcome message; otherwise, you will see an error message.
+  - paragraph: The login feature is essential for secure websites and is commonly used. Automating the testing of various login scenarios, including different edge cases, is crucial to ensure reliability and security.
+  - heading "How Does Form-Based Authentication Work?" [level=3]
+  - paragraph: "Take a look at this diagram and review the different steps:"
+  - img "How Does Form-Based Authentication Work"
+  - list:
+    - listitem: "Step 1: A client requests access to a protected resource"
+    - listitem: "Step 2: If the client is unauthenticated, the server redirects the client to a login page"
+    - listitem: "Step 3: The client submits the login form to the server"
+    - listitem: "Step 4: If the login succeeds, the server redirects the client to the resource. If the login fails, the client is redirected to an error page"
+  - insertion
+- contentinfo:
+  - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4]
+  - paragraph:
+    - text: "Version: 41a43bee | Copyright"
+    - link "Expand Testing":
+      - /url: https://expandtesting.com/
+    - text: "2025"
+- img
+```
+
+# Test source
+
+```ts
+   1 | import {test, expect} from '@playwright/test'
+   2 |
+   3 | test('Login Test - Practice Expand Testing', async ({page}) => {
+   4 |     await page.goto('https://practice.expandtesting.com/login', { timeout: 60000 })
+   5 |     await page.locator('#username').fill('practice')
+   6 |     await page.fill('#password', 'SuperSecretPassword!')
+   7 |     await page.click('.btn-primary')
+   8 | })
+   9 |
+  10 | test('Checking Browser Title and URL - Practice Expand Testing', async({page})=>{
+  11 |
+> 12 |     await page.goto('https://practice.expandtesting.com/login', { timeout: 60000 })
+     |                ^ Error: page.goto: Test timeout of 30000ms exceeded.
+  13 |
+  14 |     //Assertions
+  15 |     await expect(page).toHaveTitle('Test Login Page for Automation Testing Practice')
+  16 |     await expect(page).toHaveURL('https://practice.expandtesting.com/login')
+  17 |     await page.close();
+  18 | })
+  19 |
+  20 | test('Login Test - Practice Test Automation', async ({page}) => {
+  21 |     await page.goto('https://practicetestautomation.com/practice-test-login/', { timeout: 60000 })
+  22 |     await page.locator('#username').fill('student')
+  23 |     await page.fill('#password', 'Password123')
+  24 |     await page.click('#submit')
+  25 | })
+  26 |
+  27 | test('Checking Browser Title and URL - Practice Test Automation', async({page})=>{
+  28 |
+  29 |     await page.goto('https://practicetestautomation.com/practice-test-login/', { timeout: 60000 })
+  30 |
+  31 |     //Assertions
+  32 |     await expect(page).toHaveTitle('Test Login | Practice Test Automation')
+  33 |     await expect(page).toHaveURL('https://practicetestautomation.com/practice-test-login/')
+  34 |     await page.close();
+  35 | })
+  36 |
+  37 |
+```
